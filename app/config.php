@@ -45,11 +45,6 @@ return array(
         'request',
     ),
 
-    'error'   => array(
-        'name',
-        'gender',
-    ),
-
     'display' => array(
         'familyname',
         'firstname',
@@ -59,6 +54,11 @@ return array(
         'mood2',
         'mood3',
         'request',
+    ),
+
+    'error'   => array(
+        'name',
+        'gender',
     ),
 
 );

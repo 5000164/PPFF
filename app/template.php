@@ -5,6 +5,6 @@
 <title><?= $title ?> | PPFF</title>
 </head>
 <body>
-<?php echo $content ?>
+<?= $content ?>
 </body>
 </html>

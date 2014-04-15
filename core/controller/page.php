@@ -46,5 +46,6 @@ class PageController
     public function redirect($next_page)
     {
         header('Location: http://'.HOME_URL.'?page='.$next_page);
+        exit;
     }
 }
